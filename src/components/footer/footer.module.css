@@ -1,0 +1,9 @@
+footer {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.317);
+  padding: 1em;
+
+  ul {
+    list-style: none;
+  }
+}
