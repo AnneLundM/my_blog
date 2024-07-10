@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import styles from "./footer.module.css";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <p>�� 2022 Your Company. All rights reserved.</p>
+      <p>2022 Your Company. All rights reserved.</p>
       <ul>
         <li>
           <Link href='#'>About</Link>
@@ -16,15 +17,15 @@ const Footer = () => {
           <Link href='#'>Terms & Conditions</Link>
         </li>
       </ul>
-      <div className='social-media'>
+      <div className={styles.some}>
         <a href='#'>
-          <img src='facebook.png' alt='Facebook' />
+          <FaFacebook />
         </a>
         <a href='#'>
-          <img src='twitter.png' alt='Twitter' />
+          <FaTwitter />
         </a>
         <a href='#'>
-          <img src='instagram.png' alt='Instagram' />
+          <FaInstagram />
         </a>
       </div>
     </footer>
