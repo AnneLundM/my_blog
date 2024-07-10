@@ -9,6 +9,9 @@ const Navigation = () => {
           <NavLink to='/'>Home</NavLink>
         </li>
         <li>
+          <NavLink to='/blogs'>Blogs</NavLink>
+        </li>
+        <li>
           <NavLink to='/contact'>Contact</NavLink>
         </li>
         <li>
